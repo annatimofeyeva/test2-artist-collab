@@ -1,0 +1,63 @@
+.deg_btn {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 60px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px!;
+    vertical-align: middle;
+    background: #51270d;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    transition: .4s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+.deg_btn:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px white;
+    border-bottom: #img_container {
+    position:relative;
+    display:inline-block;
+    text-align:center;
+    border:1px solid red;
+    /* background:url('http://jsfiddle.net/img/initializing.png') no-repeat;
+    width:186px;
+    height:157px;*/
+}
+.button {
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    width:100px;
+    height:30px;
+}solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+}
+.deg_btn:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px white;
+    z-index: 1;
+    transition: .4s;
+}
+.deg_btn:hover:before, .deg_btn:hover:after{
+    border-left-width: 25px;
+}
+.deg_btn:hover{
+    background: #f7ceb4;
+}
